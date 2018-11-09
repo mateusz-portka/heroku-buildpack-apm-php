@@ -39,3 +39,7 @@ echo "Running command:"
 echo "bash appoptics-php.sh --service-key=${APPOPTICS_SERVICE_KEY:-} $ADDITIONAL_FLAGS"
 
 bash appoptics-php.sh --service-key=${APPOPTICS_SERVICE_KEY:-} $ADDITIONAL_FLAGS
+
+echo
+echo "---------------------------------"
+echo
