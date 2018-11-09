@@ -2,7 +2,7 @@
 
 echo
 echo "---------------------------------"
-echo "Installing AppOptics..."
+echo "Installing AppOptics"
 echo "---------------------------------"
 echo
 
