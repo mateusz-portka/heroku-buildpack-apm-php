@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-if [ -z "$APPOPTICS_SERVICE_KEY" ]; then
+if [ -z "export | grep APPOPTICS_SERVICE_KEY" ]; then
     echo "Please set the environment variable APPOPTICS_SERVICE_KEY"
     exit 1
 fi
