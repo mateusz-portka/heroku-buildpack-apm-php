@@ -7,7 +7,10 @@ echo "---------------------------------"
 echo
 
 if [ -z "${APPOPTICS_SERVICE_KEY:-}" ]; then
-    echo "Error: APPOPTICS_SERVICE_KEY is not set"
+    echo "Error: Config Variable APPOPTICS_SERVICE_KEY is not set"
+    echo
+    echo "---------------------------------"
+    echo
     exit 1
 fi
 
