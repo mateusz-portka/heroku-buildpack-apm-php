@@ -1,5 +1,11 @@
 #!/bin/bash -e
 
+echo
+echo "---------------------------------"
+echo "Installing AppOptics..."
+echo "---------------------------------"
+echo
+
 if [ -z "${APPOPTICS_SERVICE_KEY:-}" ]; then
     echo "Error: APPOPTICS_SERVICE_KEY is not set"
     exit 1
